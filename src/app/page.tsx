@@ -3,6 +3,7 @@ import Banner from '@/components/Banner';
 import Clients from '@/components/Clients';
 import Contact from '@/components/Contact';
 import Details from '@/components/Details';
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
 import OurWork from '@/components/OurWork';
@@ -27,6 +28,7 @@ const Home:React.FC = () => {
       <Appointment/>
       <Clients/>
       <OurWork/>
+      <Footer/>
     </main>
   );
 };
