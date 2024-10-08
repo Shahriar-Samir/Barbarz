@@ -3,6 +3,7 @@ import Contact from '@/components/Contact';
 import Details from '@/components/Details';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
+import PricingPlan from '@/components/PricingPlan';
 import Services from '@/components/Services';
 import Specialists from '@/components/Specialists';
 import Testimonials from '@/components/Testimonials';
@@ -19,6 +20,7 @@ const Home:React.FC = () => {
       <Details/>
       <Specialists/>
       <Testimonials/>
+      <PricingPlan/>
     </main>
   );
 };
