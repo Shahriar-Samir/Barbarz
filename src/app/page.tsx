@@ -4,6 +4,7 @@ import Details from '@/components/Details';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
 import Services from '@/components/Services';
+import Specialists from '@/components/Specialists';
 import React from 'react';
 
 const Home:React.FC = () => {
@@ -15,6 +16,7 @@ const Home:React.FC = () => {
       <Services/>
       <Contact/>
       <Details/>
+      <Specialists/>
     </main>
   );
 };
