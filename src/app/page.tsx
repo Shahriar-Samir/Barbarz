@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner';
 import Contact from '@/components/Contact';
+import Details from '@/components/Details';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
 import Services from '@/components/Services';
@@ -13,6 +14,7 @@ const Home:React.FC = () => {
       <Intro/>
       <Services/>
       <Contact/>
+      <Details/>
     </main>
   );
 };
