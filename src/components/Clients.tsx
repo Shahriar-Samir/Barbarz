@@ -6,7 +6,7 @@ const Clients = () => {
             <section className='flex flex-col items-center g'>
                     <h1>Our Clients</h1>
             </section>
-            <section className='flex gap-5 justify-center'>
+            <section className='flex flex-wrap gap-5 justify-center'>
                 <figure className='h-[200px] w-[250px]'>
                 <img src='/hairSalon1.jpg' className='h-full w-full object-cover'/>
                 </figure>
