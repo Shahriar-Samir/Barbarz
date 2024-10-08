@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
+import Services from '@/components/Services';
 import React from 'react';
 
 const Home:React.FC = () => {
@@ -9,6 +10,7 @@ const Home:React.FC = () => {
       <Header/>
       <Banner/>
       <Intro/>
+      <Services/>
     </main>
   );
 };
