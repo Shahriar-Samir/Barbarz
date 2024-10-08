@@ -1,3 +1,4 @@
+import Appointment from '@/components/Appointment';
 import Banner from '@/components/Banner';
 import Contact from '@/components/Contact';
 import Details from '@/components/Details';
@@ -21,6 +22,7 @@ const Home:React.FC = () => {
       <Specialists/>
       <Testimonials/>
       <PricingPlan/>
+      <Appointment/>
     </main>
   );
 };
