@@ -10,19 +10,19 @@ const Footer = () => {
   <input type='email'/>
   <button className='p-2 rounded-lg text-white bg-[#D9A536D4]'>Subscribe</button>
   </section>
-  <nav>
-    <h6 className="footer-title">Company</h6>
+  <nav className='uppercase'>
+    <h6 className="footer-title">Quick links</h6>
+    <a className="link link-hover">Home</a>
     <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <a className="link link-hover">Gallery</a>
+    <a className="link link-hover">Contact Us</a>
   </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+  <nav className='uppercase'>
+    <h6 className="footer-title">Services</h6>
+    <a className="link link-hover">Hair</a>
+    <a className="link link-hover">Beauty</a>
+    <a className="link link-hover">SPA</a>
+    <a className="link link-hover">MASSAGE</a>
   </nav>
   <nav>
     <h6 className="footer-title">Social</h6>
