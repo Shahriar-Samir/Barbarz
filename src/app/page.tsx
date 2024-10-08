@@ -5,6 +5,7 @@ import Contact from '@/components/Contact';
 import Details from '@/components/Details';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
+import OurWork from '@/components/OurWork';
 import PricingPlan from '@/components/PricingPlan';
 import Services from '@/components/Services';
 import Specialists from '@/components/Specialists';
@@ -25,6 +26,7 @@ const Home:React.FC = () => {
       <PricingPlan/>
       <Appointment/>
       <Clients/>
+      <OurWork/>
     </main>
   );
 };
