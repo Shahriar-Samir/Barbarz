@@ -1,5 +1,6 @@
 import Appointment from '@/components/Appointment';
 import Banner from '@/components/Banner';
+import Clients from '@/components/Clients';
 import Contact from '@/components/Contact';
 import Details from '@/components/Details';
 import Header from '@/components/Header';
@@ -23,6 +24,7 @@ const Home:React.FC = () => {
       <Testimonials/>
       <PricingPlan/>
       <Appointment/>
+      <Clients/>
     </main>
   );
 };
