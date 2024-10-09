@@ -4,12 +4,12 @@ const Contact = () => {
     return (
         <section className='w-full flex flex-col md:flex-row gap-5 items-center bg-[url("/contact.jpg")] pb-10 md:pb-0'>
             <section className='flex flex-col justify-center px-10 items-center md:items-start  md:w-4/6 text-white h-[700px]'>
-                <h3 className='text-4xl text-[#CCA34C]'>Contact</h3>
-                <h1 className='font-poppins text-5xl font-semibold mt-4'>Get In Touch</h1>
-                <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                <h3 className='text-4xl text-[#CCA34C] text-center'>Contact</h3>
+                <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>Get In Touch</h1>
+                <div className="flex gap-5 mt-3 justify-center">
+                        <img src='/icons/line.svg' className='max-w-[85px]'/>
                         <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <img src='/icons/line.svg' className='max-w-[85px]'/>
                     </div>  
                 <p className='w-11/12 max-w-[550px] text-lg mt-4 text-center md:text-start'>Suspendisse pretium felis dolor, sed placerat diam blandit vitae. Sed eu nisl massa. Phasellus vehicula tristique orci ut ultrices. Duis eu libero augue. In vulputate sodales tempus. Phasellus dolor orci, consectetur in tincidunt eget, consectetur non orci. </p>
             </section>

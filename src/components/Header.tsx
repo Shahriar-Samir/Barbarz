@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className="navbar md:flex md:justify-center bg-[#292727B3] text-white fixed ">
+            <div className="z-[20] navbar md:flex md:justify-center bg-[#292727B3] text-white fixed ">
   <div className="navbar-start lg:hidden">
   <img src='/title.svg' className='p-0 w-[220px] h-[120px] md:w-[200px] md:h-[100px]'/>
   </div>

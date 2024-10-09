@@ -7,7 +7,7 @@ const Appointment = () => {
                 <h1 className='text-6xl font-prata max-w-[600px] text-center'>Making You Look Good Is In Our Heritage</h1>
                 <p className='font-poppins text-2xl text-center w-11/12 max-w-[900px]'>Barber is a person whose occupation is mainly to cut dress groome style
                 and shave men’s and boy’s hair</p>
-                <button className='btn bg-[#CCA34C] text-white rounded-none uppercase p-0 px-14 min-h-10 h-16 text-2xl hover:bg-[#a3833d]'>Make An Appointment</button>
+                <button className='w-10/12 max-w-[400px] btn bg-[#CCA34C] text-white rounded-none uppercase p-0 px-14 min-h-10 h-16 text-lg md:text-2xl hover:bg-[#a3833d]'>Make An Appointment</button>
         </section>
     );
 };

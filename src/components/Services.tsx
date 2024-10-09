@@ -40,13 +40,13 @@ const Services = () => {
     return (
         <section className='bg-[#FDF8E9] flex flex-col items-center px-10 gap-5 py-28 my-16'>
                 <header className='flex flex-col items-center'>
-                <h3 className='text-[#CCA34C] text-4xl'>Services</h3>
-                    <h1 className='text-[#4A4845] text-5xl font-semibold font-poppins mt-3'>Our Services</h1>
-                    <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg'/>
+                <h3 className='text-4xl text-[#CCA34C] text-center'>Services</h3>
+                <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>Our Services</h1>
+                <div className="flex gap-5 mt-3 justify-center">
+                        <img src='/icons/line.svg' className='max-w-[85px]'/>
                         <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg'/>
-                    </div>
+                        <img src='/icons/line.svg' className='max-w-[85px]'/>
+                    </div> 
                 </header>
                 <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20'>
                     {services.map(item=>{
