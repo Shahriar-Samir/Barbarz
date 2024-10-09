@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins } from 'next/font/google';
+import { Poppins, Prata } from 'next/font/google';
 
 const poppins = Poppins({
   weight: ['400', '500', '700'],
+  subsets: ['latin']
+});
+const prata = Prata({
+  weight: [ '400',],
   subsets: ['latin']
 });
 
@@ -21,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins} antialiased`}
+        className={`${poppins} ${prata} antialiased`}
       >
         {children}
       </body>

@@ -4,12 +4,12 @@ const Testimonials = () => {
     return (
         <section className='bg-[url("/review.jpg")] bg-cover flex justify-center items-center flex-col gap-28 py-24'>
              <section className='flex flex-col items-center gap-5'>
-             <h3 className='text-[#CCA34C] text-4xl'>Specialists</h3>
-                    <h1 className='text-white text-5xl font-semibold font-poppins mt-3'>Our Team</h1>
-                    <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg'/>
+             <h3 className='text-4xl text-[#CCA34C]'>Testimonials</h3>
+                <h1 className='font-poppins text-5xl font-semibold mt-4 text-white capitalize text-center'>Hear from our customers</h1>
+                <div className="flex gap-5 mt-3">
+                        <img src='/icons/line.svg' className='w-[85px]'/>
                         <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg'/>
+                        <img src='/icons/line.svg' className='w-[85px]'/>
                     </div>
             </section>
             <section className='grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-5 w-11/12 mx-auto'>

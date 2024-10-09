@@ -2,22 +2,27 @@ import React from 'react';
 
 const Clients = () => {
     return (
-        <section className='flex flex-col gap-5 items-center p-5'>
-            <section className='flex flex-col items-center g'>
-                    <h1>Our Clients</h1>
+        <section className='flex flex-col items-center p-5 mt-32'>
+             <section className='flex flex-col items-center'>
+                <h1 className='font-poppins text-5xl font-semibold mt-4'>Our Clients</h1>
+                <div className="flex gap-5 mt-3">
+                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <img src='/icons/mustache.svg'/>
+                        <img src='/icons/line.svg' className='w-[85px]'/>
+                    </div> 
             </section>
-            <section className='flex flex-wrap gap-5 justify-center'>
-                <figure className='h-[200px] w-[250px]'>
-                <img src='/hairSalon1.jpg' className='h-full w-full object-cover'/>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5  mt-10'>
+                <figure className='h-[160px] w-[220px]'>
+                <img src='/hairSalon1.svg' className='h-full w-full object-cover'/>
                 </figure>
-                <figure className='h-[200px] w-[250px]'>
-                <img src='/hairSalon2.jpg' className='h-full w-full object-cover'/>
+                <figure className='h-[160px] w-[220px]'>
+                <img src='/hairSalon2.svg' className='h-full w-full object-cover'/>
                 </figure>
-                <figure className='h-[200px] w-[250px]'>
-                <img src='/hairSalon3.jpg' className='h-full w-full object-cover'/>
+                <figure className='h-[160px] w-[220px]'>
+                <img src='/hairSalon3.svg' className='h-full w-full object-cover'/>
                 </figure>
-                <figure className='h-[200px] w-[250px]'>
-                <img src='/hairSalon4.jpg' className='h-full w-full object-cover'/>
+                <figure className='h-[160px] w-[220px]'>
+                <img src='/hairSalon4.svg' className='h-full w-full object-cover'/>
                 </figure>
             </section>
         </section>

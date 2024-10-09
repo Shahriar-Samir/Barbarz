@@ -6,6 +6,7 @@ import Details from '@/components/Details';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Intro from '@/components/Intro';
+import News from '@/components/News';
 import OurWork from '@/components/OurWork';
 import PricingPlan from '@/components/PricingPlan';
 import Services from '@/components/Services';
@@ -26,8 +27,11 @@ const Home:React.FC = () => {
       <Testimonials/>
       <PricingPlan/>
       <Appointment/>
+      <section className='bg-white'>
+      <News/>
       <Clients/>
       <OurWork/>
+      </section>
       <Footer/>
     </main>
   );
