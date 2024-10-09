@@ -38,21 +38,23 @@ const Services = () => {
     ]
 
     return (
-        <section className='bg-[#FDF8E9] flex flex-col items-center p-10 gap-5'>
+        <section className='bg-[#FDF8E9] flex flex-col items-center px-10 gap-5 py-28 my-16'>
                 <header className='flex flex-col items-center'>
-                    <h2 className='text-[#CCA34C] text-'>Services</h2>
-                    <h1 className='text-[#4A4845] text font-semibold'>Our Services</h1>
-                    <div className='divide-x-0'>
-                    mustache
+                    <h2 className='text-[#CCA34C] text-4xl'>Services</h2>
+                    <h1 className='text-[#4A4845] text-5xl font-semibold font-poppins mt-3'>Our Services</h1>
+                    <div className="flex gap-5 mt-3">
+                        <img src='/icons/line.svg'/>
+                        <img src='/icons/mustache.svg'/>
+                        <img src='/icons/line.svg'/>
                     </div>
                 </header>
-                <section className='flex gap-5'>
+                <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20'>
                     {services.map(item=>{
-                        return <article key={item.id} className='bg-[#F7F7F7]  text-black p-5 text-center flex flex-col items-center gap-5'>
-                                <img src={item.img} className='w-[50px]'/>
-                                <h1>{item.heading}</h1>
-                                <h1>{item.description}</h1>
-                                <button className='btn'>Read More</button>
+                        return <article key={item.id} className='bg-[#F7F7F7]  text-[#35312F] p-4 text-center flex flex-col items-center gap-5'>
+                                <img src={item.img} className='w-[80px] h-[80px]'/>
+                                <h1 className='text-3xl lg:text-2xl font-medium'>{item.heading}</h1>
+                                <p className='text-xl lg:text-base'>{item.description}</p>
+                                <button className='btn font-semibold bg-transparent shadow-none border-2 border-[#CCA34C] text-[#CCA34C] text-lg uppercase'>Read More</button>
                         </article>
                     })}
                 </section>
