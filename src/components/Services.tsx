@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 type serviceType =  {
         id:number,
         img:string
@@ -43,15 +43,15 @@ const Services = () => {
                 <h3 className='text-4xl text-[#CCA34C] text-center'>Services</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>Our Services</h1>
                 <div className="flex gap-5 mt-3 justify-center">
-                        <img src='/icons/line.svg' className='max-w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='max-w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='max-w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='max-w-[85px]'/>
                     </div> 
                 </header>
                 <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20'>
                     {services.map(item=>{
                         return <article key={item.id} className='bg-[#F7F7F7]  text-[#35312F] p-4 text-center flex flex-col items-center gap-5'>
-                                <img src={item.img} className='w-[80px] h-[80px]'/>
+                                <Image alt='line' width={1000} height={1000} src={item.img} className='w-[80px] h-[80px]'/>
                                 <h1 className='text-3xl lg:text-2xl font-medium'>{item.heading}</h1>
                                 <p className='text-xl lg:text-base'>{item.description}</p>
                                 <button className='btn font-semibold bg-transparent shadow-none border-2 border-[#CCA34C] text-[#CCA34C] text-lg uppercase'>Read More</button>

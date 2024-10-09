@@ -1,21 +1,21 @@
 import React from 'react';
-
+import Image from 'next/image';
 const News = () => {
     return (
         <section className='pt-14 flex flex-col items-center'>
             <section className='flex flex-col items-center'>
             <h3 className='text-4xl text-[#CCA34C] text-center'>News From Blog</h3>
-                <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>What's On Our Mind</h1>
+                <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>What&apos;s On Our Mind</h1>
                 <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg' className='w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
                     </div> 
             </section>
             <section className='grid md:grid-cols-3 mt-16 gap-10 w-10/12 mx-auto'>
                 <article>
                     <div className='relative z-[10]'>
-                    <img src='/post1.jpg'/>
+                    <Image alt='line' width={1000} height={1000} src='/post1.jpg'/>
                     <div className='absolute right-0 bottom-[-20px] text-lg font-semibold text-black text-center py-1 bg-[#CCA34C] flex flex-col px-2'>
                    <span className=''>Mar</span>
                    <span className=''>20</span>
@@ -31,7 +31,7 @@ const News = () => {
                 </article>
                 <article>
                     <div className='relative z-[10]'>
-                    <img src='/post2.jpg'/>
+                    <Image alt='line' width={1000} height={1000} src='/post2.jpg'/>
                     <div className='absolute right-0 bottom-[-20px] text-lg font-semibold text-black text-center py-1 bg-[#CCA34C] flex flex-col px-2'>
                    <span className=''>Mar</span>
                    <span className=''>20</span>
@@ -47,7 +47,7 @@ const News = () => {
                 </article>
                 <article>
                     <div className='relative z-[10]'>
-                    <img src='/post3.jpg'/>
+                    <Image alt='line' width={1000} height={1000} src='/post3.jpg'/>
                     <div className='absolute right-0 bottom-[-20px] text-lg font-semibold text-black text-center py-1 bg-[#CCA34C] flex flex-col px-2'>
                    <span className=''>Mar</span>
                    <span className=''>20</span>

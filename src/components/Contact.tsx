@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Contact = () => {
     return (
@@ -7,9 +8,9 @@ const Contact = () => {
                 <h3 className='text-4xl text-[#CCA34C] text-center'>Contact</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4 text-center'>Get In Touch</h1>
                 <div className="flex gap-5 mt-3 justify-center">
-                        <img src='/icons/line.svg' className='max-w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='max-w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='max-w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='max-w-[85px]'/>
                     </div>  
                 <p className='w-11/12 max-w-[550px] text-lg mt-4 text-center md:text-start'>Suspendisse pretium felis dolor, sed placerat diam blandit vitae. Sed eu nisl massa. Phasellus vehicula tristique orci ut ultrices. Duis eu libero augue. In vulputate sodales tempus. Phasellus dolor orci, consectetur in tincidunt eget, consectetur non orci. </p>
             </section>

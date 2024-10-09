@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const PricingPlan = () => {
     return (
         <section className='px-5 md:px-16 py-16 mt-16 bg-[#FDF8E9] flex flex-col items-center gap-10 w-full'>
@@ -7,9 +7,9 @@ const PricingPlan = () => {
             <h3 className='text-4xl text-[#CCA34C]'>Specialists</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4'>Our Team</h1>
                 <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg' className='w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
                     </div>  
             </section>
             <section className='flex justify-between flex-col lg:flex-row items-center gap-5 lg:gap-20'>
@@ -18,7 +18,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const PricingPlan = () => {
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
                         <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
-                        <img src='/icons/line2.svg' className='w-1/2'/>
+                        <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>

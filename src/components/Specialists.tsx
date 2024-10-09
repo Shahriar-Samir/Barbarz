@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 type specialistsType = {
     name:string,
     expertise: string,
@@ -38,15 +38,15 @@ const Specialists = () => {
             <h3 className='text-4xl text-[#CCA34C]'>Specialists</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4'>Our Team</h1>
                 <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg' className='w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
                     </div>  
             </section>
             <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 md:gap-4 mt-14'>
                 {specialists.map(item=>{
                     return <article key={item.id} className='bg-[#B78E36] text-white text-center flex flex-col gap-3 pb-8   '>
-                            <img src={item.img}/>
+                            <Image alt='line' width={1000} height={1000} src={item.img}/>
                             <h1 className='text-4xl font-semibold mt-1'>{item.name}</h1>
                             <p className='text-xl font-medium'>{item.expertise}</p>
                     </article>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Testimonials = () => {
     return (
         <section className='bg-[url("/review.jpg")] bg-cover flex justify-center items-center flex-col gap-28 py-24'>
@@ -7,16 +7,16 @@ const Testimonials = () => {
              <h3 className='text-4xl text-[#CCA34C]'>Testimonials</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4 text-white capitalize text-center'>Hear from our customers</h1>
                 <div className="flex gap-5 mt-3">
-                        <img src='/icons/line.svg' className='w-[85px]'/>
-                        <img src='/icons/mustache.svg'/>
-                        <img src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
+                        <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
+                        <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
                     </div>
             </section>
             <section className='grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-5 w-11/12 mx-auto'>
                 
                 <article className='bg-[#252424] text-white p-5 flex gap-5 flex-col lg:flex-row'>
                 <figure className='w-[150px] h-[150px] lg:w-[350px] lg:h-[250px]'>
-                <img src='/icons/testimonial1.svg' className='w-full h-fit object-cover'/>
+                <Image alt='line' width={1000} height={1000} src='/icons/testimonial1.svg' className='w-full h-fit object-cover'/>
                 </figure>
                     <div className='h-full flex flex-col justify-between gap-12'>
                     <p className="text-xl font-medium font-poppins">“Amazing service! Claire helped me to reduce the shipping price a little and shipped it immediately after purchasing. The amethyst cave I got is a beauty and I c...”</p>
@@ -37,7 +37,7 @@ const Testimonials = () => {
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" disabled/>
 </div>
                   </div>
-<img src='/icons/quote.svg'/>
+<Image alt='line' width={100} height={100} src='/icons/quote.svg'/>
                    </div>
                 </div>
            
@@ -47,7 +47,7 @@ const Testimonials = () => {
                 </article>
                 <article className='bg-[#252424] text-white p-5 flex flex-col lg:flex-row gap-5'>
                  <figure className='w-[150px] h-[150px] lg:w-[350px] lg:h-[250px]'>
-                <img src='/icons/testimonial2.svg' className='w-full h-fit object-cover'/>
+                <Image alt='line' width={1000} height={1000} src='/icons/testimonial2.svg' className='w-full h-fit object-cover'/>
                 </figure>
                     <div className='h-full flex flex-col justify-between gap-12'>
                     <p className="text-xl font-medium font-poppins">“Just came back to home and should say that it is definitely a great experience. I would recommend it for everyone who needs a bike for a short term or want to t...”</p>
@@ -68,7 +68,7 @@ const Testimonials = () => {
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" disabled/>
 </div>
                   </div>
-<img src='/icons/quote.svg'/>
+<Image alt='line' width={100} height={100} src='/icons/quote.svg'/>
                    </div>
                 </div>
            

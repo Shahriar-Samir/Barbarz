@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Header = () => {
     return (
         <div>
             <div className="z-[20] navbar md:flex md:justify-center bg-[#292727B3] text-white fixed ">
   <div className="navbar-start lg:hidden">
-  <img src='/title.svg' className='p-0 w-[220px] h-[120px] md:w-[200px] md:h-[100px]'/>
+  <Image alt='line' width={1000} height={1000} src='/title.svg' className='p-0 w-[220px] h-[120px] md:w-[200px] md:h-[100px]'/>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal flex items-center gap-10 px-1 p-0 text-lg">
@@ -21,7 +21,7 @@ const Header = () => {
       </li>
       <li><a>About Us</a></li>
       <li>
-        <img src='/title.svg' className='p-0 w-[200px] h-[100px]'/>
+        <Image alt='line' width={1000} height={1000} src='/title.svg' className='p-0 w-[200px] h-[100px]'/>
       </li>
       <li><a>Team</a></li>
       <li><a>Booking</a></li>
