@@ -31,7 +31,7 @@ const Contact = () => {
                         <Image alt='line' width={100} height={100} src='/icons/mustache.svg'/>
                         <Image alt='line' width={100} height={100} src='/icons/line.svg' className='max-w-[85px]'/>
                     </div>  
-                <p className='w-11/12 max-w-[550px] text-lg mt-4 text-center md:text-start'>Suspendisse pretium felis dolor, sed placerat diam blandit vitae. Sed eu nisl massa. Phasellus vehicula tristique orci ut ultrices. Duis eu libero augue. In vulputate sodales tempus. Phasellus dolor orci, consectetur in tincidunt eget, consectetur non orci. </p>
+                <p className='w-11/12 max-w-[550px] text-lg mt-4 text-center md:text-start'>We'd love to hear from you! Whether you have questions about our services, want to schedule an appointment, or just need some grooming advice, our team is here to help. Reach out to us via phone, email, or visit our location to experience the best in barbering. Your feedback and inquiries are important to us, and we strive to provide prompt and friendly service. Connect with us today and let&apos;s make your grooming experience exceptional!</p>
             </motion.section>
             <motion.section variants={listItem} className='flex flex-col items-center justify-center md:w-3/6 h-[700px] px-3 bg-[#292727B3] text-white w-11/12 '>
                 <h1 className='text-4xl text-center text-[#CCA34C] font-semibold font-poppins'>Make An Appointment</h1>

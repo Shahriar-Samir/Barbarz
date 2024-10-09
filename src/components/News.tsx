@@ -45,14 +45,14 @@ const News = () => {
                         <h1 className='font-semibold text-black text-2xl w-10/12'>The best barbershop in 
                         the town</h1>
                     </div>
-                    <p className='text-lg text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                    <p className='text-lg text-black'>Discover the best barbershop in town, where expert barbers deliver top-notch grooming services tailored to your style. From precision cuts to flawless shaves, we ensure every visit leaves you looking sharp and feeling confident.</p>
                 </motion.article>
                 <motion.article  variants={listItem} >
                     <div className='relative z-[10]'>
                     <Image alt='line' width={1000} height={1000} src='/post2.jpg'/>
                     <div className='absolute right-0 bottom-[-20px] text-lg font-semibold text-black text-center py-1 bg-[#CCA34C] flex flex-col px-2'>
-                   <span className=''>Mar</span>
-                   <span className=''>20</span>
+                   <span className=''>Apr</span>
+                   <span className=''>25</span>
 
                     </div>
                     </div>
@@ -61,14 +61,14 @@ const News = () => {
                         <h1 className='font-semibold text-black text-2xl w-10/12'>The best barbershop in 
                         the town</h1>
                     </div>
-                    <p className='text-lg text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                    <p className='text-lg text-black'>Discover the best barbershop in town, where expert barbers deliver top-notch grooming services tailored to your style. From precision cuts to flawless shaves, we ensure every visit leaves you looking sharp and feeling confident. </p>
                 </motion.article>
                 <motion.article  variants={listItem} >
                     <div className='relative z-[10]'>
                     <Image alt='line' width={1000} height={1000} src='/post3.jpg'/>
                     <div className='absolute right-0 bottom-[-20px] text-lg font-semibold text-black text-center py-1 bg-[#CCA34C] flex flex-col px-2'>
-                   <span className=''>Mar</span>
-                   <span className=''>20</span>
+                   <span className=''>Jun</span>
+                   <span className=''>12</span>
 
                     </div>
                     </div>
@@ -77,7 +77,7 @@ const News = () => {
                         <h1 className='font-semibold text-black text-2xl w-10/12'>The best barbershop in 
                         the town</h1>
                     </div>
-                    <p className='text-lg text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                    <p className='text-lg text-black'>Discover the best barbershop in town, where expert barbers deliver top-notch grooming services tailored to your style. From precision cuts to flawless shaves, we ensure every visit leaves you looking sharp and feeling confident. </p>
                 </motion.article>
             </motion.section>
         </motion.section>

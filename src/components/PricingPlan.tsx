@@ -22,37 +22,37 @@ const PricingPlan = () => {
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Precision cuts tailored to enhance your unique style and personality</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Hair Styling</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Expert styling that transforms your look for any occasion with creativity and flair.</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Hair Trimming</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Subtle trims to maintain healthy hair and keep your style looking fresh.</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Kids Hair Cut</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Fun and friendly haircuts for children that ensure a comfortable experience.</p>
                     </div>
                    
                 </article>
@@ -60,42 +60,42 @@ const PricingPlan = () => {
                 <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Shaving</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'> A clean, smooth shave that refreshes your look while caring for your skin.</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Beard Trimming</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Skillful beard trimming that shapes and defines your facial hair for a polished appearance.</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Face Cleaning</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Deep cleansing treatments that rejuvenate your skin and promote a fresh, healthy glow.</p>
                     </div>
                     <div className='w-full flex flex-col gap-4'>
                     <div className='flex gap-5 w-full '>
                         <div className='flex w-full justify-between items-center'>
-                        <h2 className='font-semibold text-3xl  text-black'>Hair Cut</h2>
+                        <h2 className='font-semibold text-3xl  text-black'>Mustache Trim</h2>
                         <Image alt='line' width={1000} height={1000} src='/icons/line2.svg' className='w-1/2'/>
                         <h1 className='font-semibold text-4xl font-poppins text-[#D9A536]'>$10</h1>
                         </div>
                     </div>
-                    <p className='text-lg w-full text-black'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p className='text-lg w-full text-black'>Precision mustache trimming to complement your style and maintain a sharp look.</p>
                     </div>
                    
                 </article>
