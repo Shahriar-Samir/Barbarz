@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 type specialistsType = {
     name:string,
     expertise: string,
@@ -32,8 +33,21 @@ const Specialists = () => {
         },
     ]
 
+    const variants= {
+        hidden:{
+          x:100, opacity:0,
+        },
+        show:{
+          x:0,opacity:1,
+          transition:{
+            type:"spring", stiffness:500 , staggerChildren: 0.4,
+            delayChildren: 0.3
+          }
+        }
+      }
+
     return (
-        <section className='px-5 py-24 pb-32'>
+        <motion.section variants={variants} initial='hidden' whileInView='show' className='px-5 py-24 pb-32'>
             <section className='flex flex-col items-center gap-5'>
             <h3 className='text-4xl text-[#CCA34C]'>Specialists</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4'>Our Team</h1>
@@ -52,7 +66,7 @@ const Specialists = () => {
                     </article>
                 })}
             </section>
-        </section>
+        </motion.section>
     );
 };
 

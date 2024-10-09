@@ -1,3 +1,5 @@
+'use client'
+
 import Appointment from '@/components/Appointment';
 import Banner from '@/components/Banner';
 import Clients from '@/components/Clients';
@@ -16,7 +18,7 @@ import React from 'react';
 
 const Home:React.FC = () => {
   return (
-    <main className='bg-[#F7F7F7]'>
+    <main className='bg-[#F7F7F7] overflow-x-hidden'>
       <Header/>
       <Banner/>
       <Intro/>

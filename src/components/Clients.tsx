@@ -1,9 +1,24 @@
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const Clients = () => {
+
+    const variants= {
+        hidden:{
+            scale:0, opacity:0,
+        },
+        show:{
+          scale:1,opacity:1,
+          transition:{
+            type:"spring", stiffness:500 , staggerChildren: 0.4,
+            delayChildren: 0.3
+          }
+        }
+      }
+
     return (
-        <section className='flex flex-col items-center p-5 mt-32'>
+        <motion.section variants={variants} initial='hidden' whileInView='show' className='flex flex-col items-center p-5 mt-32'>
              <section className='flex flex-col items-center'>
                 <h1 className='font-poppins text-5xl font-semibold mt-4'>Our Clients</h1>
                 <div className="flex gap-5 mt-3">
@@ -26,7 +41,7 @@ const Clients = () => {
                 <Image alt='line' width={1000} height={1000} src='/hairSalon4.svg' className='h-full w-full object-cover'/>
                 </figure>
             </section>
-        </section>
+        </motion.section>
     );
 };
 

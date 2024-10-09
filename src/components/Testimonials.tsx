@@ -1,8 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 const Testimonials = () => {
+
+    const container = {
+        hidden: { opacity: 0, scale:0 },
+        show: {
+          opacity: 1,
+          scale:1,
+          transition: {
+            delayChildren:0.2,  
+            staggerChildren: 0.5
+          }
+        }
+      };
+      
+      const listItem = {
+        hidden: { opacity: 0 },
+        show: { opacity: 1 }
+      };
+
+
     return (
-        <section className='bg-[url("/review.jpg")] bg-cover flex justify-center items-center flex-col gap-28 py-24'>
+        <motion.section initial={container} whileInView={listItem} className='bg-[url("/review.jpg")] bg-cover flex justify-center items-center flex-col gap-28 py-24'>
              <section className='flex flex-col items-center gap-5'>
              <h3 className='text-4xl text-[#CCA34C]'>Testimonials</h3>
                 <h1 className='font-poppins text-5xl font-semibold mt-4 text-white capitalize text-center'>Hear from our customers</h1>
@@ -12,9 +32,9 @@ const Testimonials = () => {
                         <Image alt='line' width={100} height={100} src='/icons/line.svg' className='w-[85px]'/>
                     </div>
             </section>
-            <section className='grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-5 w-11/12 mx-auto'>
+            <motion.section variants={container} initial='hidden' whileInView='show' className='grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-5 w-11/12 mx-auto'>
                 
-                <article className='bg-[#252424] text-white p-5 flex gap-5 flex-col lg:flex-row'>
+                <motion.article variants={listItem} className='bg-[#252424] text-white p-5 flex gap-5 flex-col lg:flex-row'>
                 <figure className='w-[150px] h-[150px] lg:w-[350px] lg:h-[250px]'>
                 <Image alt='line' width={1000} height={1000} src='/icons/testimonial1.svg' className='w-full h-fit object-cover'/>
                 </figure>
@@ -44,8 +64,8 @@ const Testimonials = () => {
                 </div>
 
                     </div>
-                </article>
-                <article className='bg-[#252424] text-white p-5 flex flex-col lg:flex-row gap-5'>
+                </motion.article>
+                <motion.article variants={listItem} className='bg-[#252424] text-white p-5 flex flex-col lg:flex-row gap-5'>
                  <figure className='w-[150px] h-[150px] lg:w-[350px] lg:h-[250px]'>
                 <Image alt='line' width={1000} height={1000} src='/icons/testimonial2.svg' className='w-full h-fit object-cover'/>
                 </figure>
@@ -75,10 +95,10 @@ const Testimonials = () => {
                 </div>
 
                     </div>
-                </article>
+                </motion.article>
                 
-            </section>
-        </section>
+            </motion.section>
+        </motion.section>
     );
 };
 
